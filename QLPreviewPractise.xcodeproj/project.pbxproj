@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		2DFF693C267887780067C930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF693B267887780067C930 /* AppDelegate.swift */; };
 		2DFF693E267887780067C930 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF693D267887780067C930 /* SceneDelegate.swift */; };
-		2DFF6940267887780067C930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF693F267887780067C930 /* ViewController.swift */; };
 		2DFF6943267887780067C930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6941267887780067C930 /* Main.storyboard */; };
 		2DFF6946267887780067C930 /* QLPreviewPractise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6944267887780067C930 /* QLPreviewPractise.xcdatamodeld */; };
 		2DFF69482678877A0067C930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF69472678877A0067C930 /* Assets.xcassets */; };
 		2DFF694B2678877A0067C930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF69492678877A0067C930 /* LaunchScreen.storyboard */; };
 		2DFF69562678877A0067C930 /* QLPreviewPractiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF69552678877A0067C930 /* QLPreviewPractiseTests.swift */; };
 		2DFF69612678877A0067C930 /* QLPreviewPractiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF69602678877A0067C930 /* QLPreviewPractiseUITests.swift */; };
+		2DFF696F267887900067C930 /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF696E267887900067C930 /* MainVc.swift */; };
+		2DFF697126788ACE0067C930 /* Dummy.pages in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF697026788ACE0067C930 /* Dummy.pages */; };
+		2DFF697526788CF00067C930 /* TommyJerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF697426788CF00067C930 /* TommyJerry.jpg */; };
+		2DFF697726788ECF0067C930 /* story.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF697626788ECF0067C930 /* story.pdf */; };
+		2DFF697B2678AD080067C930 /* model.js in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF697A2678AD080067C930 /* model.js */; };
+		2DFF697D2678B16C0067C930 /* Animations.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF697C2678B16C0067C930 /* Animations.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		2DFF6938267887780067C930 /* QLPreviewPractise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLPreviewPractise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFF693B267887780067C930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFF693D267887780067C930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DFF693F267887780067C930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DFF6942267887780067C930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DFF6945267887780067C930 /* QLPreviewPractise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QLPreviewPractise.xcdatamodel; sourceTree = "<group>"; };
 		2DFF69472678877A0067C930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		2DFF695C2678877A0067C930 /* QLPreviewPractiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLPreviewPractiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFF69602678877A0067C930 /* QLPreviewPractiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLPreviewPractiseUITests.swift; sourceTree = "<group>"; };
 		2DFF69622678877A0067C930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFF696E267887900067C930 /* MainVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		2DFF697026788ACE0067C930 /* Dummy.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dummy.pages; sourceTree = "<group>"; };
+		2DFF697426788CF00067C930 /* TommyJerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TommyJerry.jpg; sourceTree = "<group>"; };
+		2DFF697626788ECF0067C930 /* story.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = story.pdf; sourceTree = "<group>"; };
+		2DFF697A2678AD080067C930 /* model.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = model.js; sourceTree = "<group>"; };
+		2DFF697C2678B16C0067C930 /* Animations.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Animations.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +113,17 @@
 			children = (
 				2DFF693B267887780067C930 /* AppDelegate.swift */,
 				2DFF693D267887780067C930 /* SceneDelegate.swift */,
-				2DFF693F267887780067C930 /* ViewController.swift */,
 				2DFF6941267887780067C930 /* Main.storyboard */,
 				2DFF69472678877A0067C930 /* Assets.xcassets */,
 				2DFF69492678877A0067C930 /* LaunchScreen.storyboard */,
 				2DFF694C2678877A0067C930 /* Info.plist */,
 				2DFF6944267887780067C930 /* QLPreviewPractise.xcdatamodeld */,
+				2DFF696E267887900067C930 /* MainVc.swift */,
+				2DFF697026788ACE0067C930 /* Dummy.pages */,
+				2DFF697426788CF00067C930 /* TommyJerry.jpg */,
+				2DFF697626788ECF0067C930 /* story.pdf */,
+				2DFF697A2678AD080067C930 /* model.js */,
+				2DFF697C2678B16C0067C930 /* Animations.mp4 */,
 			);
 			path = QLPreviewPractise;
 			sourceTree = "<group>";
@@ -234,8 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFF697D2678B16C0067C930 /* Animations.mp4 in Resources */,
 				2DFF694B2678877A0067C930 /* LaunchScreen.storyboard in Resources */,
+				2DFF697B2678AD080067C930 /* model.js in Resources */,
+				2DFF697126788ACE0067C930 /* Dummy.pages in Resources */,
 				2DFF69482678877A0067C930 /* Assets.xcassets in Resources */,
+				2DFF697526788CF00067C930 /* TommyJerry.jpg in Resources */,
+				2DFF697726788ECF0067C930 /* story.pdf in Resources */,
 				2DFF6943267887780067C930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFF6946267887780067C930 /* QLPreviewPractise.xcdatamodeld in Sources */,
-				2DFF6940267887780067C930 /* ViewController.swift in Sources */,
+				2DFF696F267887900067C930 /* MainVc.swift in Sources */,
 				2DFF693C267887780067C930 /* AppDelegate.swift in Sources */,
 				2DFF693E267887780067C930 /* SceneDelegate.swift in Sources */,
 			);
